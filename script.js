@@ -4,7 +4,7 @@ var newObj = JSON.parse(myJSON);
 document.getElementById("result").InnerHtml = newObj.name;
 
 async function add(a,b) {
-    let respone = await a + b;
+    let response = await a + b;
     display(response);
 }
 
