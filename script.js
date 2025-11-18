@@ -9,6 +9,6 @@ async function add(a,b) {
 }
 
 function display(some) {
-    document.getElementById("result").innerHTML = some;
+    document.getElementById("result").InnerHtml = some;
 }
 add(13,21)
