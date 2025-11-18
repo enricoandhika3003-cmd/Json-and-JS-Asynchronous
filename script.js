@@ -1,7 +1,7 @@
 var Obj = { name: "Enrico", age: 14, grade: 9 };
 var JSON = JSON.stringify(Obj);
-var newObj = JSON.parse(myJSON);
-document.getElementById("result").innerHtml = newObj.name;
+var newObj = JSON.parse(JSON);
+document.getElementById("result").innerHTML = newObj.name;
 
 async function add(a,b) {
     let response = await a + b;
@@ -9,6 +9,6 @@ async function add(a,b) {
 }
 
 function display(some) {
-    document.getElementById("result").innerHtml = some;
+    document.getElementById("result").innerHTML = some;
 }
 add(13,21)
