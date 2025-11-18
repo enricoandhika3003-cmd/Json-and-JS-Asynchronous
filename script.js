@@ -1,4 +1,4 @@
-var Obj = { name: "Riya", age: 12, grade: 7 };
+var Obj = { name: "Enrico", age: 14, grade: 9 };
 var JSON = JSON.stringify(Obj);
 var newObj = JSON.parse(myJSON);
 document.getElementById("result").InnerHtml = newObj.name;
