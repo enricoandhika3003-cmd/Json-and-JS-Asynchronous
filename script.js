@@ -4,11 +4,11 @@ var newObj = JSON.parse(JSON);
 document.getElementById("result").innerHTML = newObj.name;
 
 async function add(a,b) {
-    let response = await a + b;
+    let response = await a * b;
     display(response);
 }
 
 function display(some) {
     document.getElementById("result").innerHTML = some;
 }
-add(13,21)
+add(7,5)
